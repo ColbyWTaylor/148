@@ -1,0 +1,121 @@
+.p01 {
+  color: blue;
+}
+
+.blueDiv {
+    background-color: blue;
+    padding: 5%;
+}
+
+.outerGreenDiv {
+    border-style: solid white;
+    padding: 20px;
+    background-color: darkslategrey;
+}
+
+.outerGreenDiv1 {
+    border-style: solid;
+    padding: 20px;
+    background-color: black;
+}
+
+.greenDiv {
+    border-style: dotted dashed solid double;
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+border-style: 2px black solid;
+    text-align: right;
+    color: white;
+}
+
+.mainContent {
+    background-image: url(https://i.giphy.com/media/OizfvUJIMEUaQ/giphy.webp);
+    background-size: cover; /* use contain to take up only necessary space */
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+.div1 {
+    color: red;
+    background-color: black;
+    width: 40%;
+    align: left;
+}
+
+.div2 {
+    color: blue;
+    background-color: black;
+    width: 40%;
+}
+
+.container {
+    width: 80%;
+    height: 200px;
+    background: aqua;
+    margin: auto;
+    padding: 10px;
+}
+.one {
+    width: 15%;
+    height: 200px;
+    background: red;
+    float: left;
+}
+.two {
+    margin-left: 15%;
+    height: 200px;
+    background: black;
+}
+
+p.mix {border-style: dotted dashed solid double;}
+
+.halfGreen {
+    width: 50%;
+    margin-left: 0px;
+    background-color: cadetblue;
+    float: left;
+}
+
+.halfRed {
+    width: 50%;
+    background-color: firebrick;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+.relax {
+    background-image: url(http://i.imgur.com/nm4vaEV.gif);
+    background-size: cover;
+    padding: 40px;
+    width: 90%;
+}
+
+.howToRelax {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  background-color: orange;
+  border: 2px solid red;
+  margin-bottom: 50px;
+}
+
+div#myDIV {
+  position:absolute;
+  width:100px;
+  height:100px;
+  background:red;
+  left:10px;
+  top:100px;
+}
